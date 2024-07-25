@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+nav{
+    background: rgb(239 237 237);
+    height: 65px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 70px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.menu .dot{
+    width: 4px;
+    height: 4px;
+    background-color: #3683F0;
+    display: block;
+    border-radius: 50%;
+    margin: 4px 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 13px 0px; */
+    
+}
+.left-sidebar{
+    background: #FDFDFD;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* align-self: flex-start; */
+    height: 480px;
+    width: 130px;
+    border-radius:0 15px 15px 10px;
+    padding-top: 1px;
+}
+
+/* ---------------journey css --------------------*/
+.journey{
+    background: #FDFDFD;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 580px;
+    width: 430px;
+    border-radius: 0 15px 15px 10px;
+    padding-top: 1px;
+    position: absolute;
+    color: white;
+}
+
+.arrowRotate{
+    padding: 10px 5px;
+    width: 40px;
+    height: 26px;
+    transform: rotate(180deg); 
+    transition: transform 0.2s ease;
+
+}
+.journey ul{
+    color: black;
+    padding-left: 50px;
+    padding-top: 10px;
+
+}
+.journey ul li{
+    padding: 10px;
+}
+
+.right-content {
+    background: #FDFDFD;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100px; /* Adjust width as needed */
+    border-radius: 15px 0 0 10px;
+    /* Ensure it's in the normal flow of the layout */
+}
+
+
+.main-content{
+    padding: 30px 70px;
+}
+.main-heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px 0 20px;
+}
+.main-heading h1{
+    color: #0029FF;
+}
+.main-content button{
+
+    border-radius: 8px;
+    background: #0029FF;
+    color: white;
+    border: none;
+    padding:  0 20px;
+}
+.main-text{
+    background: #E9ECEF;
+    border-radius: 2px;
+    padding: 25px;
+    margin: 52px 40px;
+}
+.image a img{
+    width: 500px;
+}
+.content-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    justify-content: center;
+}
+.content-card {
+    background-color: white;
+    /* padding: 20px; */
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.card{
+    width: max-content;
+}
+.card p{
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px 5px 0px 0;
+    padding: 5px;
+}
+.card input{
+    height: 65px;
+    width: 200px;
+    border-radius: 5pxb;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.card-text{
+    padding: 20px 30px;
+}
+.card-text .button{
+    border-radius: 8px;
+    background: #0029FF;
+    color: white;
+    border: none;
+    padding:  10px 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.thread-section p{
+    padding: 20px 10px;
+}
+.thread-section h4{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 10px 10px 0 0;
+}
+.content-card h3{
+    background: #ffffdb;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+.thread{
+    display: flex;
+    justify-content: space-between;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.icons-img {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 74px;
+}
+.select{
+    display: flex;
+    gap: 15px;
+}
+.select p{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: 600;
+    width: 90px;
+    font-size: 13px;
+}
+.card01 p{
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+.card01 input{
+    width: 440px;
+    height: 100px;   
+    border-radius: 5pxb;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.black{
+    background: black;
+    height: 50px;
+    border-radius: 0 15px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow{
+    padding: 10px 0;
+    width: 40px;
+    height: 26px;
+    
+}
+.line{
+    border: 0.1px solid rgb(193, 193, 193);
+}
+.title input{
+    width: 430px;
+    height: 30px;
+    border: none;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.content-elements{
+    display: flex;
+    margin-top: 20px;
+    height: 70px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+}
+.content-elements ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 14px;
+    
+    
+}
+.content-notepad{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    border-radius: 4px;
+}
+.intro :nth-child(1){
+    border: 0.5px solid rgb(193, 193, 193);
+    padding:5px;
+}
+.intro :nth-child(2){
+    margin-top: 5px;
+}
+.thread-A p{
+    border: 0.5px solid rgb(193, 193, 193);
+    padding:5px;
+    margin-top: 5px;
+}
+.example :nth-child(1){
+    border: 0.1px solid rgb(193, 193, 193);
+    padding:5px;
+    margin-top: 5px;
+}
+.notice-board hide{
+    display: none;
+}
+.notice-board {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #FDFDFD;
+    width: 80px;
+    height: 300px; 
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.notice-board::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    z-index: -1;
+}
+
+.close-button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.close-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.notice-board-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+.notice-board-text p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.hide{
+    display: none;
+}
